@@ -1,0 +1,214 @@
+@import 'custom.css';
+* {
+	margin: 0;
+	padding: 3.5px 0 0 2px;
+	list-style: none;
+	font-family: 'Lato', sans-serif;
+	line-height: 1;
+}
+
+body {
+	background-color: #F5F6F8;
+	overflow: hidden;
+}
+
+.sidebar-navigation {
+	position: relative;
+	height: auto;
+	width: 80px;
+	float: right;
+	border: 2px solid blue;
+	border-radius: 50px 0 0 50px ;
+	background:var(--menu);
+	z-index: 10;
+	}
+
+ul{
+	text-align: center;
+	color: var(--elements);
+	padding-bottom:30px;
+	
+	
+}
+li{
+	
+	padding-top:50px;
+	padding-bottom:40px;
+	
+}
+.container-cuadro{
+	 background-color:var(--main);
+	 height:600px;
+	
+}
+.anuncio{
+	background-color:var(--elements);
+	width:100%;
+	height:110px; 
+	position: absolute;
+ 	 top: 45%;
+}
+.anuncio_colores{
+
+	
+	background-color:var(--elements);
+	width:100%;
+	height:110px; 
+	position: absolute;
+ 	 top: 45%;
+}
+
+.anuncio_colores2{
+background-color:var(--main);
+	 height:600px;
+}
+
+
+.text-anun h3{
+	color:var(--letters);
+	text-align: center;
+	font-size:45px;
+	padding-top:20px;
+	
+}
+.input1{
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+#text0{
+	position: absolute;
+	left: 30%;
+	display: block;
+	font-size: medium;
+
+}
+
+.td1 {
+ font-family: Arial; 
+ font-weight: bold;
+ color:#0000cc; 
+ text-align: center;
+ color:var(--letters);
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+
+#space {
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}		
+
+#text1,#text2,#text3{
+	position: absolute;
+	left: 40%;
+	display: block;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+.logo-circle{
+	background-color:var(--elements);
+	width:290px;
+	height:290px;
+	position: absolute;
+	  top: 27%;
+	  left:80px;
+	  border-radius: 50% ;
+}
+#text1{
+	animation-name: anim-1;
+}
+
+#text2{
+	animation-name: anim-2;
+}
+
+#text3{
+	animation-name: anim-3;
+}
+
+
+@keyframes anim-1 {
+	0%, 10% {opacity: 0; }
+  10%,20% {opacity: 1; }
+  33%, 100% {opacity: 0;}
+}
+
+@keyframes anim-2 {
+	0%, 33% {opacity: 0; }
+  45%, 55% {opacity: 1; }
+  66%, 100% {opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66% {opacity: 0; }
+  80%, 90% {opacity: 1; }
+  100% {opacity: 0; }
+}
+
+.logo-circle img{
+	width: 80%;
+	position: relative;
+	top: 18%;
+	left: 9%;
+}
+.title{
+	position: relative;
+ 	margin-top: 40px;
+ 	left: 55px;
+}
+.title h1, h2{
+ 	text-align: center;
+	color:var(--letters);
+}
+.clockdate{
+	position: relative;
+	margin-top: 28%;
+	left: 65px;
+}
+
+.clockdate1{
+	
+	position: relative;
+	margin-top: 28%;
+	left: 65px;
+}
+
+
+
+
+.clockdate h1 , h2{
+ 	text-align: center;
+	color:var(--letters);
+}
+.boton-r{
+	 width: 8%; 
+	 margin-left: 8%;
+    	top: -9%;
+	 
+
+}

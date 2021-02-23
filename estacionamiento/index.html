@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Principal</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Estacionamiento">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="">
+</head>
+
+<script src="https://kit.fontawesome.com/726ab76e2e.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/clock.js"></script>
+
+<script type="text/javascript" src="js/push.js"></script>
+<script type="text/javascript" src="js/color.js"></script>
+<header>
+  
+
+</header>
+ <body onload="startTime();">
+	 <div class="container-cuadro">
+		 <nav class="sidebar-navigation">
+			<ul>
+				<li class="active">
+					<i class="fa fa-cog" onclick="location.href='tema.html'"></i>
+					<span class="tooltip " ></span>
+				</li>
+				<li>
+					<i class="fa fa-wifi"></i>
+					<span class="tooltip"></span>
+				</li>
+				<li>
+					<i class="fa fa-plus-circle"></i>
+					<span class="tooltip"></span>
+				</li>
+				<li>
+					<i class="fa fa-sync-alt"></i>
+					<span class="tooltip"></span>
+				</li>
+				<li>
+					<i class="fa fa-power-off"></i>
+					<span class="tooltip"></span>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="title">
+			<h1 >SORIANA</h1>
+			<h2 >Tepalcapa </h2>
+			
+		</div>
+		
+			
+		<div class="anuncio">
+				<div class="text-anun" id="mensaje">
+					<h3 id="text1" > ¡Bienvenido! </h3>
+					<h3 id="text2" > Presione el botón </h3>
+					<img id="text3" class="boton-r" src="images/boton.gif">
+				</div>
+		
+		</div>
+		
+
+		<div class="logo-circle">
+			<img src="images/logo.png">
+		
+		</div><br>
+
+		<div class="clockdate">
+		    <h1 id="clock"></h1>
+		    <h2 id="date"></h2>
+		 
+		</div>
+
+		<div>
+			<input type="button" name="btnrj"         id="boton-rojo" 
+value="Boton simulado" onclick="BotonRojo(this)" />
+</div>
+	   
+	 	</div>
+
+	</div>
+
+</body>
+
+
+</html>
+
